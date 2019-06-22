@@ -11,7 +11,9 @@ public class Main {
         ll.add(17);
         ll.add(18);
         ll.add(19);
-
+        ll.addAtStart(3);
+        ll.addAtStart(2);
+        ll.addAtMiddle(45,16);
         ll.print();
     }
 
