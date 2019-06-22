@@ -14,8 +14,10 @@ public class Main {
         ll.add(75);
         ll.addAtStart(3);
         ll.addAtStart(2);
+        ll.addAtStart(72);
         ll.addAtMiddle(45, 16);
         ll.deleteLast();
+        ll.deleteFirst();
         ll.print();
     }
 

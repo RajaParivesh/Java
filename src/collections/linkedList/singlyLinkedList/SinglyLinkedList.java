@@ -71,17 +71,14 @@ public class SinglyLinkedList {
         }
     }
 
-//
-//    public void deleteFirst() {
-//
-//        Node i = head;
-//        while (i.next != null) {
-//            if (i.next.next == null) {
-//                i.next = null;
-//            } else {
-//                i = i.next;
-//            }
-//        }
+
+    public void deleteFirst() {
+
+        if (head != null) {
+            head = head.next;
+        }
+
+    }
 
 }
 
