@@ -90,65 +90,8 @@ public class SinglyLinkedList {
         }
     }
 
-
-
-
 }
 
 
 
 
-//
-//
-//
-//    public void deleteFromStart(){
-//        Node n = head;
-//        n  = n.next;
-//        while (n != null)
-//        {
-//            System.out.print(n.data+" --> ");
-//            n = n.next;
-//        }
-//    }
-//
-
-//    public void deleteFromMiddle(int Number){
-//        Node n = head;
-//        Node temp = n;
-//        while (n.next != null)
-//        {
-//            if(n.data == Number){
-//                // System.out.println(1);
-//                temp.next = n.next.next;
-//            }
-//            System.out.print(n.data + " --> ");
-//            temp = temp.next;
-//            n = n.next;
-//        }
-//
-//        // System.out.println(temp.next.data);
-//    }
-//
-//
-//    public static void main(String[] args)
-//    {
-//
-//        SinglyLinkedList llist = new SinglyLinkedList();
-//
-//        llist.head	 = new Node(1);
-//        Node second	 = new Node(2);
-//        Node third	 = new Node(3);
-//        Node fourth	 = new Node(4);
-//
-//        llist.head.next = second;
-//        second.next = third;
-//        third.next = fourth;
-//
-//        llist.printList();
-//        // System.out.println("");
-//        llist.deleteFromStart();
-//        llist.addAtStart(7);
-//        // llist.deleteFromEnd();
-//        // llist.deleteFromMiddle(1);  // Not working properly
-//    }
-//}
