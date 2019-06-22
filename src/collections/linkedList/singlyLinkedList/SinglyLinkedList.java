@@ -37,7 +37,6 @@ public class SinglyLinkedList {
         else
             newNode.next = head;
             head = newNode;
-//            System.out.println(head);
     }
 
     public void addAtMiddle(int n, int afterTheNumber ){
@@ -46,7 +45,6 @@ public class SinglyLinkedList {
         if (i == null)
             head = newNode;
         else
-//            System.out.println(i.next.value() == afterTheNumber)
             while(i.next != null){
                 if(i.value() == afterTheNumber){
                     // Takecare: here passByReference not passByValue
@@ -77,7 +75,6 @@ public class SinglyLinkedList {
         if (head != null) {
             head = head.next;
         }
-
     }
 
     public void deleteMiddle(int nodeToDelete) {
