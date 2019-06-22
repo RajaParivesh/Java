@@ -49,27 +49,42 @@ public class SinglyLinkedList {
 //            System.out.println(i.next.value() == afterTheNumber)
             while(i.next != null){
                 if(i.value() == afterTheNumber){
-                    // takecare: here passByReference not passByValue
+                    // Takecare: here passByReference not passByValue
                     Node temp = i.next;
                     i.next = newNode;
                     newNode.next = temp;
                 }
                 i = i.next;
             }
-//            newNode.next = head;
-//            head = newNode;
     }
 
-    // public void deleteFromStart() {
-    // 	Node n = head;
-    // 	n  = n.next;
-    // 	while (n != null)
-    // 	{
-    // 		System.out.print(n.data+" --> ");
-    // 		n = n.next;
-    // 	}
-    // }
+    public void deleteLast(){
+        Node i = head;
+        while (i.next != null)
+        {
+            if(i.next.next == null) {
+                i.next = null;
+            }
+            else {
+                i = i.next;
+            }
+        }
+    }
+
+//
+//    public void deleteFirst() {
+//
+//        Node i = head;
+//        while (i.next != null) {
+//            if (i.next.next == null) {
+//                i.next = null;
+//            } else {
+//                i = i.next;
+//            }
+//        }
+
 }
+
 
 
 
@@ -86,18 +101,7 @@ public class SinglyLinkedList {
 //        }
 //    }
 //
-//    public void deleteFromEnd(){
-//        Node n = head;
-//        Node temp = n;
-//        while (n.next != null)
-//        {
-//            // temp.next = null;
-//            System.out.print(temp.data + " --> ");
-//            temp = temp.next;
-//            n = n.next;
-//        }
-//    }
-//
+
 //    public void deleteFromMiddle(int Number){
 //        Node n = head;
 //        Node temp = n;
