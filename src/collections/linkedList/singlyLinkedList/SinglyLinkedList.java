@@ -83,9 +83,7 @@ public class SinglyLinkedList {
     public void deleteMiddle(int nodeToDelete) {
         Node i = head;
         while(i.next != null){
-            Node temp = i;
             if(i.next.value() == nodeToDelete){
-                // Takecare: here passByReference not passByValue
                 i.next = i.next.next;
             }
             i = i.next;
