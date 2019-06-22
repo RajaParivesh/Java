@@ -1,5 +1,6 @@
 package collections;
 
+import collections.linkedList.doublyLinkedList.DoublyLinkedList;
 import collections.linkedList.singlyLinkedList.SinglyLinkedList;
 
 public class Main {
@@ -22,8 +23,19 @@ public class Main {
         ll.print();
     }
 
+
     public static void main(String args[]) {
-        testLinkedListPrint();
+//        testLinkedListPrint();
+        DoublyLinkedList dl = new DoublyLinkedList(5);
+//        dl.append(4);
+//        dl.append(4);
+//        dl.append(7);
+//        dl.append(4);
+        dl.add(4);
+        dl.add(4);
+        dl.add(2);
+        dl.add(4);
+        dl.print();
     }
 
 }
