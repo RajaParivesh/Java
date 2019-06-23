@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="176d5409-e301-47cc-ab31-f15207b03385" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/linkedList/singlyLinkedList/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/linkedList/singlyLinkedList/SinglyLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/linkedList/doublyLinkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/linkedList/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +22,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/collections/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+                <state relative-caret-position="300">
+                  <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#testLinkedListPrint#0;class#Main#0" />
@@ -50,8 +48,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/collections/linkedList/doublyLinkedList/DoublyLinkedList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="174">
-                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+                <state relative-caret-position="195">
+                  <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -76,8 +74,8 @@
         <option value="$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/doublyLinkedList/Node.java" />
-        <option value="$PROJECT_DIR$/src/collections/Main.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/doublyLinkedList/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/collections/Main.java" />
       </list>
     </option>
   </component>
@@ -181,12 +179,12 @@
       <workItem from="1561187294600" duration="3154000" />
       <workItem from="1561190474766" duration="14816000" />
       <workItem from="1561207546246" duration="6172000" />
-      <workItem from="1561218538974" duration="1355000" />
+      <workItem from="1561218538974" duration="2742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25497000" />
+    <option name="totallyTimeSpent" value="26884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-30" width="1366" height="798" extended-state="6" />
@@ -270,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testLinkedListPrint#0;class#Main#0" />
@@ -281,8 +279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/linkedList/doublyLinkedList/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="195">
+          <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
         </state>
       </provider>
     </entry>

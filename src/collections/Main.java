@@ -31,10 +31,12 @@ public class Main {
 //        dl.append(4);
 //        dl.append(7);
 //        dl.append(4);
-        dl.add(4);
-        dl.add(4);
-        dl.add(2);
-        dl.add(4);
+//        dl.add(4);
+//        dl.add(4);
+//        dl.add(2);
+        dl.add(3);
+        dl.addFirst(4);
+        dl.addFirst(7);
         dl.print();
     }
 
