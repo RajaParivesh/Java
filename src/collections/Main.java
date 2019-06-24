@@ -42,7 +42,7 @@ public class Main {
         dl.addFirst(7);
         dl.addFirst(6);
 //        dl.addMiddle(11, 6);
-        dl.addAtPosition(4,5);
+        dl.addAtPosition(10,12);
         dl.print();
     }
 

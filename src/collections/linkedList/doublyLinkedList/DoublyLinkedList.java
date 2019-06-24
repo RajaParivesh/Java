@@ -18,7 +18,6 @@ public class DoublyLinkedList {
         }
     }
 
-
     public void add(int n) {
         Node newNode = new Node(n);
         Node i = head; /* used in step 5*/
@@ -47,18 +46,29 @@ public class DoublyLinkedList {
     public void addAtPosition(int n, int position){
         Node newNode = new Node(n);
         Node i = head;
-        for(int j=1; i.next != null; j++){
-            if(j == position - 1){
-                Node A = i;
-                Node B = i.next;
-                newNode.next = B;
-                newNode.previous = A;
-                B.previous = newNode;
-                A.next = newNode;
+        Node k = head;
+
+        int length = 0;
+        while (k.next != null){
+            length++;
+            k=k.next;
+        }
+        if(length < position){
+            System.out.println("Invalid position entered: Position is grater than the length of the linked list" );
+        }else {
+            for (int j = 1; i.next != null; j++) {
+                if (j == position - 1) {
+                    Node A = i;
+                    Node B = i.next;
+                    newNode.next = B;
+                    newNode.previous = A;
+                    B.previous = newNode;
+                    A.next = newNode;
+                }
+                i = i.next;
             }
-            i = i.next;
         }
     }
 
-    
+//    publ
 }
