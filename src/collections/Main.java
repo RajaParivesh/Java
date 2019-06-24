@@ -23,9 +23,7 @@ public class Main {
         ll.print();
     }
 
-
-    public static void main(String args[]) {
-//        testLinkedListPrint();
+    private static void testDoublyLinkedListPrint() {
         DoublyLinkedList dl = new DoublyLinkedList(0);
 //        dl.append(4);
 //        dl.append(4);
@@ -39,14 +37,21 @@ public class Main {
 //        dl.addFirst(6);
 //        dl.addFirst(52);
 //        dl.addFirst(6);
-//        dl.addFirst(7);
+        dl.addFirst(7);
 //        dl.addFirst(6);
 //        dl.addMiddle(11, 6);
 //        dl.addAtPosition(10,12);
-        dl.deleteLast();
+//        dl.deleteLast();
 //        dl.deleteFirst();
 //        dl.deleteFirst();
         dl.print();
+    }
+
+
+    public static void main(String args[]) {
+//        testLinkedListPrint();
+        testDoublyLinkedListPrint();
+
     }
 
 }
