@@ -70,18 +70,20 @@ public class DoublyLinkedList {
         }
     }
 
-//    public void deleteLast() {
-//        Node i = head;
-//        while (i.next != null) {
-//            if(i.next.next == null){
-//                Node lastNode = i.next;
-//                Node secondLastNode = i;
-//                secondLastNode.next = null;
-//
-//            }
-//            i = i.next;
-//        }
-//    }
+//    Not working  : some error
+    public void deleteLast() {
+        Node i = head;
+        while (i.next != null) {
+            if(i.next.next == null){
+                Node lastNode = i.next;
+                Node secondLastNode = i;
+                lastNode.previous = null;
+                secondLastNode.next = null;
+           System.out.println(secondLastNode);
+            }
+            i = i.next;
+        }
+    }
 
     public void deleteFirst(){
         if(head != null){
