@@ -31,12 +31,18 @@ public class Main {
 //        dl.append(4);
 //        dl.append(7);
 //        dl.append(4);
-//        dl.add(4);
-//        dl.add(4);
+//        dl.add(0);
+//        dl.add(1);
 //        dl.add(2);
-        dl.add(3);
-        dl.addFirst(4);
+//        dl.add(3);
+        dl.addFirst(88);
+        dl.addFirst(6);
+        dl.addFirst(52);
+        dl.addFirst(6);
         dl.addFirst(7);
+        dl.addFirst(6);
+//        dl.addMiddle(11, 6);
+        dl.addAtPosition(4,5);
         dl.print();
     }
 
