@@ -70,5 +70,23 @@ public class DoublyLinkedList {
         }
     }
 
-//    publ
+//    public void deleteLast() {
+//        Node i = head;
+//        while (i.next != null) {
+//            if(i.next.next == null){
+//                Node lastNode = i.next;
+//                Node secondLastNode = i;
+//                secondLastNode.next = null;
+//
+//            }
+//            i = i.next;
+//        }
+//    }
+
+    public void deleteFirst(){
+        if(head != null){
+            head = head.next;
+            head.previous = null;
+        }
+    }
 }
