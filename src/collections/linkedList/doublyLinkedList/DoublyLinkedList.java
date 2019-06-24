@@ -79,7 +79,6 @@ public class DoublyLinkedList {
                 Node secondLastNode = i;
                 lastNode.previous = null;
                 secondLastNode.next = null;
-           System.out.println(secondLastNode);
             }
             i = i.next;
         }

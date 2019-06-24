@@ -69,8 +69,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/collections/linkedList/doublyLinkedList/DoublyLinkedList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+                <state relative-caret-position="357">
+                  <caret line="86" selection-start-line="86" selection-end-line="86" />
                 </state>
               </provider>
             </entry>
@@ -224,15 +224,16 @@
       <workItem from="1561190474766" duration="14816000" />
       <workItem from="1561207546246" duration="6172000" />
       <workItem from="1561218538974" duration="10163000" />
-      <workItem from="1561307174640" duration="16845000" />
+      <workItem from="1561307174640" duration="16969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51150000" />
+    <option name="totallyTimeSpent" value="51274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-30" width="1366" height="798" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.23712121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -352,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/linkedList/doublyLinkedList/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        <state relative-caret-position="357">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
