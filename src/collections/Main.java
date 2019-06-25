@@ -3,6 +3,7 @@ package collections;
 import collections.linkedList.circularLinkedList.CircularLinkedList;
 import collections.linkedList.doublyLinkedList.DoublyLinkedList;
 import collections.linkedList.singlyLinkedList.SinglyLinkedList;
+import collections.linkedList.linkedListPracticeQuestions.StackUsingLinkedList;
 
 public class Main {
 
@@ -48,7 +49,7 @@ public class Main {
 //        dl.deleteLast();
 //        dl.deleteFirst();
 //        dl.deleteFirst();
-        dl.deletePosition(1);
+//        dl.deletePosition(1);
         dl.print();
     }
 
@@ -56,14 +57,46 @@ public class Main {
         CircularLinkedList cl = new CircularLinkedList(0);
         cl.print();
     }
-        public static void main(String args[]) {
-//        testLinkedListPrint();
-        testDoublyLinkedListPrint();
-//        testCircularLinkedListPrint();
+
+    private static void testStackUsingLinkedList() {
+        StackUsingLinkedList sll = new StackUsingLinkedList();
+        sll.push(1);
+        sll.push(2);
+        sll.push(3);
+//        sll.pop();
+
+        System.out.println("Peek node is : " + sll.peek());
+        if (sll.isEmpty() == false) {
+            System.out.println("Stack is empty");
+        } else {
+            System.out.println("Stack contain some elemnents");
+        }
+        sll.print();
+
 
     }
 
+    public static void main(String args[]) {
+//        testLinkedListPrint();
+//        testDoublyLinkedListPrint();
+//        testCircularLinkedListPrint();
+        testStackUsingLinkedList();
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
