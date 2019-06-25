@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="176d5409-e301-47cc-ab31-f15207b03385" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/linkedList/doublyLinkedList/DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/linkedList/doublyLinkedList/DoublyLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,12 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/collections/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            <state>
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#409#844#0" />
                 <element signature="e#850#1558#0" />
                 <element signature="e#955#978#0" />
@@ -35,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/StackUsingLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
               <folding>
                 <element signature="e#194#195#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
@@ -85,8 +82,8 @@
         <option value="$PROJECT_DIR$/src/collections/linkedListPracticeQuestions/StackUsingLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/acv" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/Node.java" />
-        <option value="$PROJECT_DIR$/src/collections/Main.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/StackUsingLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/collections/Main.java" />
       </list>
     </option>
   </component>
@@ -196,18 +193,18 @@
       <workItem from="1561449346331" duration="1449000" />
       <workItem from="1561451169855" duration="1097000" />
       <workItem from="1561453621232" duration="659000" />
-      <workItem from="1561454385462" duration="4153000" />
+      <workItem from="1561454385462" duration="4417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79584000" />
+    <option name="totallyTimeSpent" value="79848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-30" width="1366" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24848485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24848485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -216,7 +213,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2972583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2972583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3968254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -387,29 +384,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <element signature="e#409#844#0" />
-            <element signature="e#850#1558#0" />
-            <element signature="e#955#978#0" />
-            <element signature="e#1110#1130#0" />
-            <element signature="e#1564#1700#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/StackUsingLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
           <folding>
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />
             <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#844#0" />
+            <element signature="e#850#1558#0" />
+            <element signature="e#955#978#0" />
+            <element signature="e#1110#1130#0" />
+            <element signature="e#1564#1700#0" />
           </folding>
         </state>
       </provider>
