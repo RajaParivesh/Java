@@ -70,19 +70,20 @@ public class DoublyLinkedList {
         }
     }
 
-//    Not working  : some error
-//    public void deleteLast() {
-//        Node i = head;
-//        while (i.next != null) {
-//            if(i.next.next == null){
-//                Node lastNode = i.next;
-//                Node secondLastNode = i;
-//                lastNode.previous = null;
-//                secondLastNode.next = null;
-//            }
-//            i = i.next;
-//        }
-//    }
+//
+    public void deleteLast() {
+        Node i = head;
+        while (i.next != null) {
+            if(i.next.next == null){
+                Node lastNode = i.next;
+                Node secondLastNode = i;
+                lastNode.previous = null;
+                secondLastNode.next = null;
+            } else {
+                i = i.next;
+            }
+        }
+    }
 
     public void deleteFirst(){
         if(head != null){
@@ -91,7 +92,39 @@ public class DoublyLinkedList {
         }
     }
 
-//    public void deletePosition(){
+    //Note working
+//    public void deletePosition(int position){
+//        Node i = head;
+//        if(position<=0){
+//            return;
+//        }
 //
+//        int length = 0;
+//        while(i.next != null){
+//            length++;
+//            i = i.next;
+//        }
+//
+//        Node Next = head.next;
+//        Node Current = head;
+//        Node Previous = null;
+//
+//        if(position <= length){
+//            int x=0;
+//            while (Current.next!=null){
+//                x++;
+//                if(position == x){
+//                    Next.previous = Previous;
+//                    Previous.next = Next;
+//                    Current.previous = null;
+//                    Current.next = null;
+//                }else {
+//                    System.out.println("hjhjhj");
+//                    Previous = Current;
+//                    Current = Next;
+//                    Next = Next.next;
+//                }
+//            }
+//        }
 //    }
 }
