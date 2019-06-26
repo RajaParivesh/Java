@@ -106,10 +106,13 @@ public class Main {
         nlast.add(2);
         nlast.add(3);
         nlast.add(4);
-        nlast.nthFromLastMethod1(2);
+        nlast.add(5);
+//        nlast.nthFromLastMethod1(2);
+        System.out.println("Nth node from last : " + nlast.nthFromLastMethod3(2).value());
+        System.out.println("\n");
         nlast.print();
         System.out.println("\n");
-        System.out.println(nlast.size());
+        System.out.println("Size of the linked list: " + nlast.size());
     }
     public static void main(String args[]) {
 //        testLinkedListPrint();

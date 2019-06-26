@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/nthNodeFromEnd.java" line="42" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="176d5409-e301-47cc-ab31-f15207b03385" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/collections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/StackUsingSinglyLinkedListMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/StackUsingSinglyLinkedListMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/nthNodeFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/nthNodeFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,14 +20,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4689394">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/collections/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="142">
-                  <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="107" selection-end-column="23" />
+                <state relative-caret-position="112">
+                  <caret line="110" column="31" lean-forward="true" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
                   <folding>
                     <element signature="method#testLinkedListPrint#0;class#Main#0" />
                     <element signature="e#707#734#0" />
@@ -109,11 +113,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/nthNodeFromEnd.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="350">
-                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+                <state relative-caret-position="75">
+                  <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
                   <folding>
-                    <element signature="e#212#213#0" expanded="true" />
-                    <element signature="e#235#236#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -155,15 +158,15 @@
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/DetectLoopInLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/detectLoopInLinkedList/DetectLoopInLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/detectLoopInLinkedList/Node.java" />
-        <option value="$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/StackUsingLinkedListMethods.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/susll.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/a" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/NodeFromEnd.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/StackUsingSinglyLinkedListMethods.java" />
-        <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/nthNodeFromEnd.java" />
+        <option value="$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/collections/Main.java" />
+        <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/nthNodeFromEnd.java" />
       </list>
     </option>
   </component>
@@ -297,12 +300,12 @@
       <workItem from="1561451169855" duration="1097000" />
       <workItem from="1561453621232" duration="659000" />
       <workItem from="1561454385462" duration="5466000" />
-      <workItem from="1561472296113" duration="35447000" />
+      <workItem from="1561472296113" duration="41182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116344000" />
+    <option name="totallyTimeSpent" value="122079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -350,7 +353,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29641694" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29641694" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44788274" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,16 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/a">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -586,21 +579,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/nthNodeFromEnd.java">
+    <entry file="file://$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="180">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="107" selection-end-column="23" />
+        <state relative-caret-position="112">
+          <caret line="110" column="31" lean-forward="true" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
           <folding>
             <element signature="method#testLinkedListPrint#0;class#Main#0" />
             <element signature="e#707#734#0" />
@@ -615,6 +608,16 @@
             <element signature="e#1982#2057#1" />
             <element signature="method#testStackUsingLinkedListMethod#0;class#Main#0" />
             <element signature="e#3195#3266#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/nthNodeFromEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

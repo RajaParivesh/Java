@@ -2,7 +2,7 @@ package collections.linkedList.singlyLinkedList;
 
 public class Node {
     private int data;
-    protected Node next;
+    public Node next;
 
     Node(int n) {
         data = n;
