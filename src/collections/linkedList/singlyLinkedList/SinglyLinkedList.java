@@ -2,10 +2,11 @@ package collections.linkedList.singlyLinkedList;
 
 public class SinglyLinkedList {
     private Node head;
+    private int length;
 
-    public SinglyLinkedList(int n) {
-        Node tmp = new Node(n);
-        head = tmp;
+    public SinglyLinkedList() {
+        head = null;
+        length = 0;
     }
 
     public void print() {
@@ -22,31 +23,38 @@ public class SinglyLinkedList {
         Node i = head;
         if (i == null) {
             head = newNode;
+            length++;
+            return;
         }
-        while(i.next != null) {
-            i = i.next;
-        }
-        i.next = newNode;
+        Node lastNode = getLast();
+        lastNode.next = newNode;
+        length++;
     }
+
+
 
     public void addAtStart(int n){
         Node newNode = new Node(n);
         Node i = head;
-        if (i == null)
+        if (i == null) {
             head = newNode;
-        else
+            length++;
+        }else {
             newNode.next = head;
             head = newNode;
+            length++;
+        }
     }
 
-    public void addAtMiddle(int n, int afterTheNumber ){
+    public void addAtMiddle(int n,  int afterTheNumber ){
         Node newNode = new Node(n);
         Node i = head;
-        if (i == null)
+        if (i == null) {
             head = newNode;
-        else
-            while(i.next != null){
-                if(i.value() == afterTheNumber){
+            length++;
+        }else {
+            while (i.next != null) {
+                if (i.value() == afterTheNumber) {
                     // Takecare: here passByReference not passByValue
                     Node temp = i.next;
                     i.next = newNode;
@@ -54,6 +62,8 @@ public class SinglyLinkedList {
                 }
                 i = i.next;
             }
+            length++;
+        }
     }
 
     public void deleteLast(){
@@ -62,6 +72,7 @@ public class SinglyLinkedList {
         {
             if(i.next.next == null) {
                 i.next = null;
+                length--;
             }
             else {
                 i = i.next;
@@ -74,19 +85,98 @@ public class SinglyLinkedList {
 
         if (head != null) {
             head = head.next;
+            length--;
         }
     }
 
+// Working, But not good way. Alternative method deletePosition()
     public void deleteMiddle(int nodeToDelete) {
         Node i = head;
         while(i.next != null){
             if(i.next.value() == nodeToDelete){
                 i.next = i.next.next;
+                length--;
             }
             i = i.next;
         }
     }
 
+    public Node deletePosition(int position) {
+        if (head == null) {
+            System.out.println("There is no node to delete");
+            return null;
+        }
+        if(position > size()){
+            System.out.println("Invaild Position");
+            return null;
+        }
+        Node temp = head;
+        Node deletedNode = null;
+
+        if (position == 1)
+        {
+            deletedNode = head;
+//            deletedNode.next = null;
+            head = temp.next;
+
+            return deletedNode;
+        }
+
+        Node temp2 = null;
+        for (int i = 0; temp != null && i < position-1; i++) {
+            temp2= temp;
+            temp = temp.next;
+        }
+        if (temp2 == null || temp2.next == null)
+            return null;
+        deletedNode = temp;
+//        deletedNode.next = null;
+        Node next = temp2.next.next;
+
+        temp2.next = next;
+        return deletedNode;
+    }
+
+
+    public Node getLast(){
+        Node temp = head;
+        if(head == null){
+            return null;
+        }
+        while(temp.next != null){
+            temp = temp.next;
+
+        }
+        return  temp;
+    }
+
+    public  Node getHead(){
+        return head;
+    }
+
+    public int size(){
+        return length;
+    }
+
+    // Not working for the last Node // some error
+    public Node get(int position){
+        Node temp = head;
+        int len = 0;
+        Node i = null;
+        if(head == null){
+            System.out.println("Invalid Position");
+            return null;
+        }
+        while(temp.next != null){
+            len++;
+            if(position == len){
+               i = temp;
+            }
+            temp = temp.next;
+        }
+
+        return i;
+    }
 }
 
 
