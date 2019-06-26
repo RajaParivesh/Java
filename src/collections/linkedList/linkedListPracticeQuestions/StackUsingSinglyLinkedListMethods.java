@@ -13,19 +13,12 @@ public class StackUsingSinglyLinkedListMethods {
     }
     public Node pop() {
         return stack.deletePosition(1);
-
-//        public void pop(){
-//            if(top == null){
-//                System.out.println("Stack is Underflow (i.e empty");
-//                return;
-//            }
-//            top = top.next;
-//        }
     }
 
     public void print() {
         if (stack.getHead() == null) {
             // Underflow;
+            System.out.println("There is no node to print");
         } else {
             stack.print();
         }
@@ -44,24 +37,20 @@ public class StackUsingSinglyLinkedListMethods {
         return stack.getHead().value();
     }
 
-    
-    // Not working for positionFromEnd = 1, error
-    public Node nthFromLastMethod1(int positionFromEnd) {
-        int positionFromStart;
-        if(positionFromEnd <= 0){
-            System.out.println("Negative value is not possible");
-            return null;
-        }
-        if(positionFromEnd <= stack.size() ){
-             positionFromStart = stack.size() - positionFromEnd + 1;
-        }else{
-            System.out.println("Invalid position");
-            return null;
-        }
-        return stack.get(positionFromStart);
-    }
-//
-//    public int nthFromLastMethod2() {
-//
+//    // Not working for positionFromEnd = 1, error
+//    public Node nthFromLastMethod1(int positionFromEnd) {
+//        int positionFromStart;
+//        if(positionFromEnd <= 0){
+//            System.out.println("Negative value is not possible");
+//            return null;
+//        }
+//        if(positionFromEnd <= stack.size() ){
+//            positionFromStart = stack.size() - positionFromEnd + 1;
+//        }else{
+//            System.out.println("Invalid position");
+//            return null;
+//        }
+//        return stack.get(positionFromStart);
 //    }
+
 }

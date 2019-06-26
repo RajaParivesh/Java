@@ -4,6 +4,7 @@ import collections.linkedList.circularLinkedList.CircularLinkedList;
 import collections.linkedList.doublyLinkedList.DoublyLinkedList;
 //import collections.linkedList.linkedListPracticeQuestions.detectLoopInLinkedList.DetectLoopInLinkedList;
 import collections.linkedList.linkedListPracticeQuestions.StackUsingSinglyLinkedListMethods;
+import collections.linkedList.linkedListPracticeQuestions.nthNodeFromEnd;
 import collections.linkedList.singlyLinkedList.SinglyLinkedList;
 import collections.linkedList.linkedListPracticeQuestions.StackUsingLinkedList;
 
@@ -95,17 +96,28 @@ public class Main {
 
         // nthFromLast not working for value 1
         // System.out.println("nth node from last "+ abc.nthFromLastMethod1(1).value());  // error
-          System.out.println("nth node from last "+ abc.nthFromLastMethod1(3).value());
+//          System.out.println("nth node from last "+ abc.nthFromLastMethod1(3).value());
         abc.print();
+    }
+
+    public static void testnthNodeFromEnd(){
+        nthNodeFromEnd nlast = new nthNodeFromEnd();
+        nlast.add(1);
+        nlast.add(2);
+        nlast.add(3);
+        nlast.add(4);
+        nlast.nthFromLastMethod1(2);
+        nlast.print();
+        System.out.println("\n");
+        System.out.println(nlast.size());
     }
     public static void main(String args[]) {
 //        testLinkedListPrint();
 //        testDoublyLinkedListPrint();
 //        testCircularLinkedListPrint();
 //        testStackUsingLinkedList();
-        testStackUsingLinkedListMethod();
-
-
+//        testStackUsingLinkedListMethod();
+        testnthNodeFromEnd();
 
     }
 }
