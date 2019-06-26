@@ -109,7 +109,8 @@ public class Main {
         nlast.add(4);
         nlast.add(5);
 //        nlast.nthFromLastMethod1(2);
-        System.out.println("Nth node from last : " + nlast.nthFromLastMethod2(3).value());
+//        System.out.println("Nth node from last : " + nlast.nthFromLastMethod2(1).value());
+        System.out.println("Nth node from last : " + nlast.nthFromLastMethod3(5).value());
         System.out.println("\n");
         nlast.print();
         System.out.println("\n");
@@ -117,12 +118,12 @@ public class Main {
     }
 
     public static void main(String args[]) {
-        testLinkedListPrint();
+//        testLinkedListPrint();
 //        testDoublyLinkedListPrint();
 //        testCircularLinkedListPrint();
 //        testStackUsingLinkedList();
 //        testStackUsingLinkedListMethod();
-//        testnthNodeFromEnd();
+        testnthNodeFromEnd();
 
     }
 }
