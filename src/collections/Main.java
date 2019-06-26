@@ -16,7 +16,7 @@ public class Main {
         ll.add(2);
         ll.add(3);
         ll.add(4);
-        System.out.println(ll.get(4).value());
+        System.out.println(ll.get(2).value());
 //        ll.addAtStart(3);
 //        ll.addAtStart(2);
 //        ll.addAtStart(72);
@@ -109,12 +109,13 @@ public class Main {
         nlast.add(4);
         nlast.add(5);
 //        nlast.nthFromLastMethod1(2);
-        System.out.println("Nth node from last : " + nlast.nthFromLastMethod3(1).value());
+        System.out.println("Nth node from last : " + nlast.nthFromLastMethod2(3).value());
         System.out.println("\n");
         nlast.print();
         System.out.println("\n");
         System.out.println("Size of the linked list: " + nlast.size());
     }
+
     public static void main(String args[]) {
         testLinkedListPrint();
 //        testDoublyLinkedListPrint();

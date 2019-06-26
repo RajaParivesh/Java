@@ -32,12 +32,11 @@ public class nthNodeFromEnd extends SinglyLinkedList {
         return super.get(positionFromStart);
     }
 
-    public void nthFromLastMethod2(int positionFromEnd) {
-    }
-
 
     // nth node form end using hash table
-    public Node nthFromLastMethod3(int positionFromEnd) {
+
+    // Not working for 1
+    public Node nthFromLastMethod2(int positionFromEnd) {
         Node head = super.get(1);
         int i = 1;
 
@@ -52,11 +51,19 @@ public class nthNodeFromEnd extends SinglyLinkedList {
         return hashTable.get(super.size() - positionFromEnd + 1);
     }
 
-    // nth node from end using two pointers
-    public Node nthFromLastMethod4(int positionFromEnd) {
-        Node head = super.get(1);
-
-
-        return null;
+    public void nthFromLastMethod3(int positionFromEnd) {
     }
+
+    // nth node from end using two pointers
+//    public Node nthFromLastMethod4(int positionFromEnd) {
+//
+//        Node head = super.get(1);
+//        Node tail = super.get(1);
+//        while(positionFromEnd!=0){
+//            head = head.next;
+//        }
+////        while
+//        return null;
+//    }
+
 }

@@ -32,27 +32,26 @@ public class SinglyLinkedList {
     }
 
 
-
-    public void addAtStart(int n){
+    public void addAtStart(int n) {
         Node newNode = new Node(n);
         Node i = head;
         if (i == null) {
             head = newNode;
             length++;
-        }else {
+        } else {
             newNode.next = head;
             head = newNode;
             length++;
         }
     }
 
-    public void addAtMiddle(int n,  int afterTheNumber ){
+    public void addAtMiddle(int n, int afterTheNumber) {
         Node newNode = new Node(n);
         Node i = head;
         if (i == null) {
             head = newNode;
             length++;
-        }else {
+        } else {
             while (i.next != null) {
                 if (i.value() == afterTheNumber) {
                     // Takecare: here passByReference not passByValue
@@ -66,15 +65,13 @@ public class SinglyLinkedList {
         }
     }
 
-    public void deleteLast(){
+    public void deleteLast() {
         Node i = head;
-        while (i.next != null)
-        {
-            if(i.next.next == null) {
+        while (i.next != null) {
+            if (i.next.next == null) {
                 i.next = null;
                 length--;
-            }
-            else {
+            } else {
                 i = i.next;
             }
         }
@@ -89,11 +86,11 @@ public class SinglyLinkedList {
         }
     }
 
-// Working, But not good way. Alternative method deletePosition()
+    // Working, But not good way. Alternative method deletePosition()
     public void deleteMiddle(int nodeToDelete) {
         Node i = head;
-        while(i.next != null){
-            if(i.next.value() == nodeToDelete){
+        while (i.next != null) {
+            if (i.next.value() == nodeToDelete) {
                 i.next = i.next.next;
                 length--;
             }
@@ -106,15 +103,14 @@ public class SinglyLinkedList {
             System.out.println("There is no node to delete");
             return null;
         }
-        if(position > size()){
+        if (position > size()) {
             System.out.println("Invaild Position");
             return null;
         }
         Node temp = head;
         Node deletedNode = null;
 
-        if (position == 1)
-        {
+        if (position == 1) {
             deletedNode = head;
 //            deletedNode.next = null;
             head = temp.next;
@@ -123,8 +119,8 @@ public class SinglyLinkedList {
         }
 
         Node temp2 = null;
-        for (int i = 0; temp != null && i < position-1; i++) {
-            temp2= temp;
+        for (int i = 0; temp != null && i < position - 1; i++) {
+            temp2 = temp;
             temp = temp.next;
         }
         if (temp2 == null || temp2.next == null)
@@ -138,45 +134,51 @@ public class SinglyLinkedList {
     }
 
 
-    public Node getLast(){
+    public Node getLast() {
         Node temp = head;
-        if(head == null){
+        if (head == null) {
             return null;
         }
-        while(temp.next != null){
+        while (temp.next != null) {
             temp = temp.next;
 
         }
-        return  temp;
+        return temp;
     }
 
-    public  Node getHead(){
+    public Node getHead() {
         return head;
     }
 
-    public int size(){
+    public int size() {
         return length;
     }
 
-    public Node get(int position){
+    public Node get(int position) {
         Node temp = head;
         int len = 1;
-        if(head == null){
+        if (head == null) {
             System.out.println("Invalid Position");
             return null;
         }
-        while(temp.next != null){
-            len++;
-            temp = temp.next;
-            if(position == len){
+
+        while (temp.next != null) {
+
+            if (position == len) {
                 break;
             }
+            len++;
+            temp = temp.next;
         }
+        if (position > len) {
+            System.out.println("Invalid Position");
+            return null;
 
-        return temp;
+        } else {
+            return temp;
+        }
     }
 }
-
 
 
 
