@@ -11,41 +11,52 @@ public class nthNodeFromEnd extends SinglyLinkedList {
     public nthNodeFromEnd() {
         super();
     }
-// return not working // some error so, I directly printed the value.
-//    public Node nthFromLastMethod1(int positionFromEnd) {
+
+
+    public Node nthFromLastMethod1(int positionFromEnd) {
     // this code is not working for positionFromEnd = 1
-    public void nthFromLastMethod1(int positionFromEnd) {
+//    public void nthFromLastMethod1(int positionFromEnd) {
         int positionFromStart = 0;
         if (positionFromEnd <= 0) {
             System.out.println("Zeorth and Negative position is not possible");
-//            return null;
+            return null;
         }
         if (positionFromEnd <= super.size()) {
             positionFromStart = super.size() - positionFromEnd + 1;
         } else {
             System.out.println("Invalid position");
-//            return null;
+            return null;
         }
 //        System.out.println(super.get(positionFromStart));
-        System.out.println("Node "+ positionFromEnd +" from last is: "+super.get(positionFromStart).value());
-//        return super.get(positionFromStart);
-    }
-    public void nthFromLastMethod2(int positionFromEnd){
+        System.out.println("Node " + positionFromEnd + " from last is: " + super.get(positionFromStart).value());
+        return super.get(positionFromStart);
     }
 
-//    Not working for positionFromEnd = 1
-    public Node nthFromLastMethod3(int positionFromEnd){
+    public void nthFromLastMethod2(int positionFromEnd) {
+    }
+
+
+    // nth node form end using hash table
+    public Node nthFromLastMethod3(int positionFromEnd) {
         Node head = super.get(1);
         int i = 1;
 
-        Hashtable<Integer, Node> hashTable= new Hashtable<>();
-
-        while(head.next != null) {
-            hashTable.put(i, head);
+        Hashtable<Integer, Node> hashTable = new Hashtable<>();
+        hashTable.put(i, head);
+        while (head.next != null) {
             head = head.next;
             i++;
+            hashTable.put(i, head);
         }
 
         return hashTable.get(super.size() - positionFromEnd + 1);
+    }
+
+    // nth node from end using two pointers
+    public Node nthFromLastMethod4(int positionFromEnd) {
+        Node head = super.get(1);
+
+
+        return null;
     }
 }

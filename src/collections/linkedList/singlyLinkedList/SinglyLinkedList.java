@@ -158,24 +158,22 @@ public class SinglyLinkedList {
         return length;
     }
 
-    // Not working for the last Node // some error
     public Node get(int position){
         Node temp = head;
-        int len = 0;
-        Node i = null;
+        int len = 1;
         if(head == null){
             System.out.println("Invalid Position");
             return null;
         }
         while(temp.next != null){
             len++;
-            if(position == len){
-               i = temp;
-            }
             temp = temp.next;
+            if(position == len){
+                break;
+            }
         }
 
-        return i;
+        return temp;
     }
 }
 

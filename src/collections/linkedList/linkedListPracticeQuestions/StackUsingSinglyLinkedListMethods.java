@@ -37,20 +37,5 @@ public class StackUsingSinglyLinkedListMethods {
         return stack.getHead().value();
     }
 
-//    // Not working for positionFromEnd = 1, error
-//    public Node nthFromLastMethod1(int positionFromEnd) {
-//        int positionFromStart;
-//        if(positionFromEnd <= 0){
-//            System.out.println("Negative value is not possible");
-//            return null;
-//        }
-//        if(positionFromEnd <= stack.size() ){
-//            positionFromStart = stack.size() - positionFromEnd + 1;
-//        }else{
-//            System.out.println("Invalid position");
-//            return null;
-//        }
-//        return stack.get(positionFromStart);
-//    }
 
 }
