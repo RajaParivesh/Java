@@ -14,7 +14,7 @@ public class nthNodeFromEnd extends SinglyLinkedList {
 
 
     public Node nthFromLastMethod1(int positionFromEnd) {
-    // this code is not working for positionFromEnd = 1
+        // this code is not working for positionFromEnd = 1
 //    public void nthFromLastMethod1(int positionFromEnd) {
         int positionFromStart = 0;
         if (positionFromEnd <= 0) {
@@ -36,7 +36,6 @@ public class nthNodeFromEnd extends SinglyLinkedList {
     // nth node form end using hash table
 
     /**
-     *
      * @param positionFromEnd
      * @return
      */
@@ -56,23 +55,47 @@ public class nthNodeFromEnd extends SinglyLinkedList {
         return hashTable.get(super.size() - positionFromEnd + 1);
     }
 
-    // nth node from end using two pointers
+    /**
+     * nth node from end using two pointers in one scan in linked list
+     * @param positionFromEnd
+     * @return
+     */
     public Node nthFromLastMethod3(int positionFromEnd) {
         int temp = positionFromEnd;
         Node head = super.get(1);
         Node tail = super.get(1);
 
 
-        while(temp != 1){
+        while (temp != 1) {
             head = head.next;
             temp--;
         }
 
-        while (head.next != null){
+        while (head.next != null) {
             head = head.next;
             tail = tail.next;
         }
         return tail;
     }
 
+    /**  Not Working
+     * find nth node from end using recursion
+     * @param positionFromEnd
+     * @return
+     */
+//    int counter =0;
+//    Node head = super.get(1);
+//    public Node nthFromLastMethod4(Node head, int positionFromEnd) {
+//
+//        //Recursive case
+//        if(head != null){
+//            nthFromLastMethod4(head.next, positionFromEnd);
+//            counter++;
+//            //Base case
+//            if(positionFromEnd == counter){
+//                return head;
+//            }
+//        }
+//        return null;
+//    }
 }

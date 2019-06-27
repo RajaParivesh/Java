@@ -110,11 +110,12 @@ public class Main {
         nlast.add(5);
 //        nlast.nthFromLastMethod1(2);
 //        System.out.println("Nth node from last : " + nlast.nthFromLastMethod2(1).value());
-        System.out.println("Nth node from last : " + nlast.nthFromLastMethod3(5).value());
+//        System.out.println("Nth node from last : " + nlast.nthFromLastMethod3(5).value());
+//        System.out.println("Nth node from last : " + nlast.nthFromLastMethod4(nlast.get(1),5).value());
         System.out.println("\n");
         nlast.print();
         System.out.println("\n");
-        System.out.println("Size of the linked list: " + nlast.size());
+//        System.out.println("Size of the linked list: " + nlast.size());
     }
 
     public static void main(String args[]) {
