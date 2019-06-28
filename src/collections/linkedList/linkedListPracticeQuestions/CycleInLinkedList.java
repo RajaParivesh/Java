@@ -45,23 +45,23 @@ public class CycleInLinkedList extends SinglyLinkedList {
      * @return
      */
 
-    //
-//    public Boolean isCylicPresentMethod2(){
+
+//    // Not properly coded
+//    public Boolean isCylicPresentMethod2(Node head) {
 //        boolean isCyclic = false;
-//        Node head = super.get(1);
 //        Node tail = super.get(1);
 //        int i = 1;
 //
 //        Hashtable<Integer, Node> hashTable = new Hashtable<>();
+//
 //        hashTable.put(i, head.next);
+//
 //        while (head.next != null) {
 //            head = head.next;
 //            i++;
 //            hashTable.put(i, head);
-//
-//        }
-
-    //    Not tested yet
+//        } return isCyclic;
+//    }
 
     /**
      *  Find loop by using hash set
@@ -70,6 +70,7 @@ public class CycleInLinkedList extends SinglyLinkedList {
      * @return
      */
 
+    // working
     public static boolean isCyclePresentMethod5(Node h)
     {
         HashSet<Node> s = new HashSet<Node>();
@@ -88,7 +89,6 @@ public class CycleInLinkedList extends SinglyLinkedList {
         return false;
     }
 
-//    Not tested yet
 
     /**
      * find loop by using Floyd cycle finding algorithm
@@ -96,9 +96,8 @@ public class CycleInLinkedList extends SinglyLinkedList {
      * @return
      */
 
-    //    Not tested yet
-    public boolean isCyclePresent() {
-        Node head = super.getHead();
+    //    working
+    public boolean isCyclePresent(Node head) {
         if (head == null) {
             return false;
         }
@@ -123,10 +122,9 @@ public class CycleInLinkedList extends SinglyLinkedList {
      */
 
 
-//    Not tested yet
-    public Node headNodeCycleInLinkedList() {
+    public Node headNodeCycleInLinkedList(Node head) {
 //        boolean isLoopPresent = false;
-        Node head = super.getHead();
+//        Node head = super.getHead();
         if (head == null) {
             return null;
         }
@@ -140,8 +138,7 @@ public class CycleInLinkedList extends SinglyLinkedList {
 
             if (slow == fast) {      //            true means loop present //    isLoopPresent = true;
 
-                slow = slow.next;
-                fast = fast.next;
+                slow = head;
 
                 while(slow != fast){
                     slow = slow.next;
@@ -162,7 +159,7 @@ public class CycleInLinkedList extends SinglyLinkedList {
 //
 
     public void print(){
-        if(isCyclePresent()){
+        if(isCyclePresent(super.getHead())){
             System.out.println("loop exist");
         }
     }
