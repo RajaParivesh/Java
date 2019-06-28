@@ -16,53 +16,6 @@ public class CycleInLinkedList extends SinglyLinkedList {
         from.next = to;
     }
 
-
-// Not Working
-//    /** Brute force method
-//     *
-//     * @return
-////     */
-//    public Boolean isCylicPresentMethod1(){
-//        boolean isCylic = false;
-//        Node head = super.get(1);
-//        Node tail = super.get(1);
-//        for (Node i = head; i != null; i=i.next){
-//            if(head.next == tail ){
-//
-//                isCylic = true;
-//            }
-//            head = head.next;
-//        }
-//        return false;
-//    }
-
-
-//
-    /**
-     *  Find loop by using hash table
-     * Returns true if there is a loop in linked list else returns false.
-     * @param
-     * @return
-     */
-
-
-//    // Not properly coded
-//    public Boolean isCylicPresentMethod2(Node head) {
-//        boolean isCyclic = false;
-//        Node tail = super.get(1);
-//        int i = 1;
-//
-//        Hashtable<Integer, Node> hashTable = new Hashtable<>();
-//
-//        hashTable.put(i, head.next);
-//
-//        while (head.next != null) {
-//            head = head.next;
-//            i++;
-//            hashTable.put(i, head);
-//        } return isCyclic;
-//    }
-
     /**
      *  Find loop by using hash set
      * Returns true if there is a loop in linked list else returns false.
@@ -71,7 +24,7 @@ public class CycleInLinkedList extends SinglyLinkedList {
      */
 
     // working
-    public static boolean isCyclePresentMethod5(Node h)
+    public static boolean isCyclePresentMethod1(Node h)
     {
         HashSet<Node> s = new HashSet<Node>();
 
@@ -97,7 +50,7 @@ public class CycleInLinkedList extends SinglyLinkedList {
      */
 
     //    working
-    public boolean isCyclePresent(Node head) {
+    public boolean isCyclePresentMethod2(Node head) {
         if (head == null) {
             return false;
         }
@@ -121,7 +74,7 @@ public class CycleInLinkedList extends SinglyLinkedList {
      *
      */
 
-
+    // working
     public Node headNodeCycleInLinkedList(Node head) {
 //        boolean isLoopPresent = false;
 //        Node head = super.getHead();
@@ -159,7 +112,7 @@ public class CycleInLinkedList extends SinglyLinkedList {
 //
 
     public void print(){
-        if(isCyclePresent(super.getHead())){
+        if(isCyclePresentMethod1(super.getHead())){
             System.out.println("loop exist");
         }
     }
