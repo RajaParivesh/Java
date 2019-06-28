@@ -33,41 +33,34 @@ public class CycleInLinkedList extends SinglyLinkedList {
 //    }
 
 
-//    Not tested yet
-
+//
     /**
-     * find loop by using values
-     *
+     *  Find loop by using hash table
+     * Returns true if there is a loop in linked list else returns false.
+     * @param
      * @return
      */
 
-    //    Not tested yet
-    public boolean isCyclePresent() {
-        Node head = super.get(1);
-        if (head == null) {
-            return false;
-        }
-
-        Node slow = head;
-        Node fast = head;
-
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-
-            if (slow == fast) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
+    //
+//    public Boolean isCylicPresentMethod2(){
+//        boolean isCyclic = false;
+//        Node head = super.get(1);
+//        Node tail = super.get(1);
+//        int i = 1;
+//
+//        Hashtable<Integer, Node> hashTable = new Hashtable<>();
+//        hashTable.put(i, head.next);
+//        while (head.next != null) {
+//            head = head.next;
+//            i++;
+//            hashTable.put(i, head);
+//
+//        }
 
     //    Not tested yet
 
     /**
-     *  Find loop by using hash table
+     *  Find loop by using hash set
      * Returns true if there is a loop in linked list else returns false.
      * @param
      * @return
@@ -86,6 +79,36 @@ public class CycleInLinkedList extends SinglyLinkedList {
             s.add(h);
 
             h = h.next;
+        }
+
+        return false;
+    }
+
+//    Not tested yet
+
+    /**
+     * find loop by using Floyd cycle finding algorithm
+     *
+     * @return
+     */
+
+    //    Not tested yet
+    public boolean isCyclePresent() {
+        Node head = super.getHead();
+        if (head == null) {
+            return false;
+        }
+
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {
+                return true;
+            }
         }
 
         return false;
