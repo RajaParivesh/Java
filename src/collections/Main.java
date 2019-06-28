@@ -127,8 +127,7 @@ public class Main {
         cil.add(4);
         cil.add(5);
         cil.createCycle(cil.get(5), cil.get(5));
-        cil.getHead().next = cil.get(4).next;
-        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresentMethod1(cil.get(1)));
+        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresentMethod1(cil.getHead()));
         System.out.println("Is cycle present in the linked list: " + cil.isCyclePresentMethod2(cil.get(1)));
         System.out.println("The start node of the cicle in the linked list is : " + cil.headNodeCycleInLinkedList(cil.getHead()).value());
         cil.print();

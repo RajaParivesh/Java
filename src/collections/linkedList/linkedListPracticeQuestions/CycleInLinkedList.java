@@ -103,13 +103,13 @@ public class CycleInLinkedList extends SinglyLinkedList {
 
         return slow;   // this is the starting node of the loop
     }
-
+//
 //    public int lengthOfTheLoop(){
-//        boolean isCyclePresent = isCyclePresent();
+//        boolean isCyclePresent = isCyclePresentMethod1();
 //        Node head = headNodeCycleInLinkedList();
 //        if()
 //    }
-//
+
 
     public void print(){
         if(isCyclePresentMethod1(super.getHead())){
