@@ -12,6 +12,10 @@ public class CycleInLinkedList extends SinglyLinkedList {
         super();
     }
 
+    public void createCycle(Node from, Node to) {
+        from.next = to;
+    }
+
 
 // Not Working
 //    /** Brute force method
@@ -66,7 +70,7 @@ public class CycleInLinkedList extends SinglyLinkedList {
      * @return
      */
 
-    public static boolean isCyclePresentmethod5(Node h)
+    public static boolean isCyclePresentMethod5(Node h)
     {
         HashSet<Node> s = new HashSet<Node>();
 
@@ -114,8 +118,54 @@ public class CycleInLinkedList extends SinglyLinkedList {
         return false;
     }
 
+    /**How to find start node of the loop by modifying floyd algorithm
+     *
+     */
 
 
+//    Not tested yet
+    public Node headNodeCycleInLinkedList() {
+//        boolean isLoopPresent = false;
+        Node head = super.getHead();
+        if (head == null) {
+            return null;
+        }
+
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {      //            true means loop present //    isLoopPresent = true;
+
+                slow = slow.next;
+                fast = fast.next;
+
+                while(slow != fast){
+                    slow = slow.next;
+                    fast = fast.next;
+                }
+                return slow;
+            }
+        }
+
+        return slow;   // this is the starting node of the loop
+    }
+
+//    public int lengthOfTheLoop(){
+//        boolean isCyclePresent = isCyclePresent();
+//        Node head = headNodeCycleInLinkedList();
+//        if()
+//    }
+//
+
+    public void print(){
+        if(isCyclePresent()){
+            System.out.println("loop exist");
+        }
+    }
 
 }
 

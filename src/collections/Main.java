@@ -126,9 +126,11 @@ public class Main {
         cil.add(3);
         cil.add(4);
         cil.add(5);
+//        cil.createCycle(cil.get(5), cil.get(2));
+//        isCyclePresentMethod5()
 //        cil.getHead().next = cil.get(4).next;
 //        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresent());
-        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresentmethod5(cil.get(1)));
+        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresentMethod5(cil.get(1)));
         cil.print();
     }
     public static void main(String args[]) {
