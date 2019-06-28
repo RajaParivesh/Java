@@ -3,6 +3,7 @@ package collections;
 import collections.linkedList.circularLinkedList.CircularLinkedList;
 import collections.linkedList.doublyLinkedList.DoublyLinkedList;
 //import collections.linkedList.linkedListPracticeQuestions.detectLoopInLinkedList.DetectLoopInLinkedList;
+import collections.linkedList.linkedListPracticeQuestions.CycleInLinkedList;
 import collections.linkedList.linkedListPracticeQuestions.StackUsingSinglyLinkedListMethods;
 import collections.linkedList.linkedListPracticeQuestions.nthNodeFromEnd;
 import collections.linkedList.singlyLinkedList.SinglyLinkedList;
@@ -118,13 +119,26 @@ public class Main {
 //        System.out.println("Size of the linked list: " + nlast.size());
     }
 
+    public static void testIsCyclePresent(){
+        CycleInLinkedList cil = new CycleInLinkedList();
+        cil.add(1);
+        cil.add(2);
+        cil.add(3);
+        cil.add(4);
+        cil.add(5);
+//        cil.getHead().next = cil.get(4).next;
+//        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresent());
+        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresentmethod5(cil.get(1)));
+        cil.print();
+    }
     public static void main(String args[]) {
 //        testLinkedListPrint();
 //        testDoublyLinkedListPrint();
 //        testCircularLinkedListPrint();
 //        testStackUsingLinkedList();
 //        testStackUsingLinkedListMethod();
-        testnthNodeFromEnd();
+//        testnthNodeFromEnd();
+testIsCyclePresent();
 
     }
 }
