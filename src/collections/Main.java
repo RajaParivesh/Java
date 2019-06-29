@@ -126,10 +126,11 @@ public class Main {
         cil.add(3);
         cil.add(4);
         cil.add(5);
-        cil.createCycle(cil.get(5), cil.get(5));
-        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresentMethod1(cil.getHead()));
-        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresentMethod2(cil.get(1)));
-        System.out.println("The start node of the cicle in the linked list is : " + cil.headNodeCycleInLinkedList(cil.getHead()).value());
+        cil.createCycle(cil.get(5), cil.get(3));
+//        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresentMethod1(cil.getHead()));
+//        System.out.println("Is cycle present in the linked list: " + cil.isCyclePresentMethod2(cil.get(1)));
+//        System.out.println("The start node of the cicle in the linked list is : " + cil.headNodeCycleInLinkedList(cil.getHead()).value());
+        System.out.println("The length of the loop : " + cil.lengthOfTheLoop());
         cil.print();
     }
     public static void main(String args[]) {

@@ -20,10 +20,10 @@ public class CycleInLinkedList extends SinglyLinkedList {
      *  Find loop by using hash set
      * Returns true if there is a loop in linked list else returns false.
      * @param
+     *
      * @return
      */
 
-    // working
     public static boolean isCyclePresentMethod1(Node h)
     {
         HashSet<Node> s = new HashSet<Node>();
@@ -45,11 +45,9 @@ public class CycleInLinkedList extends SinglyLinkedList {
 
     /**
      * find loop by using Floyd cycle finding algorithm
-     *
      * @return
      */
 
-    //    working
     public boolean isCyclePresentMethod2(Node head) {
         if (head == null) {
             return false;
@@ -71,13 +69,9 @@ public class CycleInLinkedList extends SinglyLinkedList {
     }
 
     /**How to find start node of the loop by modifying floyd algorithm
-     *
      */
 
-    // working
-    public Node headNodeCycleInLinkedList(Node head) {
-//        boolean isLoopPresent = false;
-//        Node head = super.getHead();
+     public Node headNodeCycleInLinkedList(Node head) {
         if (head == null) {
             return null;
         }
@@ -89,7 +83,7 @@ public class CycleInLinkedList extends SinglyLinkedList {
             slow = slow.next;
             fast = fast.next.next;
 
-            if (slow == fast) {      //            true means loop present //    isLoopPresent = true;
+            if (slow == fast) {        //            true means loop present //    isLoopPresent = true;
 
                 slow = head;
 
@@ -103,12 +97,19 @@ public class CycleInLinkedList extends SinglyLinkedList {
 
         return slow;   // this is the starting node of the loop
     }
-//
-//    public int lengthOfTheLoop(){
-//        boolean isCyclePresent = isCyclePresentMethod1();
-//        Node head = headNodeCycleInLinkedList();
-//        if()
-//    }
+
+    /**Find the length of loop present in linked list
+     * @return
+     */
+    public int lengthOfTheLoop(){
+        Node head = headNodeCycleInLinkedList(super.getHead());
+        int length = 1;
+        while(headNodeCycleInLinkedList(super.getHead()) != head.next ){
+            head = head.next;
+            length++;
+        }
+        return length;
+    }
 
 
     public void print(){
@@ -118,13 +119,3 @@ public class CycleInLinkedList extends SinglyLinkedList {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
