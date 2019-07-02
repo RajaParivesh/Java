@@ -3,11 +3,11 @@ package collections;
 import collections.linkedList.circularLinkedList.CircularLinkedList;
 import collections.linkedList.doublyLinkedList.DoublyLinkedList;
 //import collections.linkedList.linkedListPracticeQuestions.detectLoopInLinkedList.DetectLoopInLinkedList;
-import collections.linkedList.linkedListPracticeQuestions.CycleInLinkedList;
-import collections.linkedList.linkedListPracticeQuestions.StackUsingSinglyLinkedListMethods;
-import collections.linkedList.linkedListPracticeQuestions.nthNodeFromEnd;
+import collections.linkedList.linkedListPracticeQuestions.*;
+import collections.linkedList.singlyLinkedList.Node;
 import collections.linkedList.singlyLinkedList.SinglyLinkedList;
-import collections.linkedList.linkedListPracticeQuestions.StackUsingLinkedList;
+
+import java.util.LinkedList;
 
 public class Main {
 
@@ -17,7 +17,8 @@ public class Main {
         ll.add(2);
         ll.add(3);
         ll.add(4);
-        System.out.println(ll.get(2).value());
+//        ll.addAtPosition(7,2);
+//        System.out.println(ll.get(2).value());
 //        ll.addAtStart(3);
 //        ll.addAtStart(2);
 //        ll.addAtStart(72);
@@ -120,6 +121,7 @@ public class Main {
     }
 
     public static void testIsCyclePresent(){
+
         CycleInLinkedList cil = new CycleInLinkedList();
         cil.add(1);
         cil.add(2);
@@ -133,6 +135,72 @@ public class Main {
         System.out.println("The length of the loop : " + cil.lengthOfTheLoop());
         cil.print();
     }
+
+    // Not working
+    public static void insertNodeInSortedLinkedList(){
+//        InsertNodeInSortedLinkedList  insertNode = new InsertNodeInSortedLinkedList();
+//        Node newNode = new Node();
+//
+//        insertNode.InsertNodeInSortedLinkedListMethod1(newNode);
+//        insertNode.add(1);
+//        insertNode.add(2);
+//        insertNode.add(3);
+//        insertNode.add(4);
+//        insertNode.add(5);
+//        insertNode.print();
+    }
+//
+//    public static void testReverseLinkedList(){
+//        SinglyLinkedList rl = new SinglyLinkedList()
+//        rl.add(1);
+//        rl.add(2);
+//        rl.add(3);
+//        rl.add(4);
+//        rl.add(5);
+//        reverseLinkedList(rl.getHead());
+//
+//
+//    }
+
+    public static Node ReverseLinkedList(Node head){
+        LinkedList<Node> stack = new LinkedList<>();
+
+        while(head.next != null) {
+            stack.push(head);
+            head = head.next;
+        }
+
+        SinglyLinkedList sl = new SinglyLinkedList();
+        while (stack.size() > 0){
+
+            sl.add(stack.pop().value());
+//            System.out.println(stack.pop().value());
+
+        }
+        return sl.getHead();
+    }
+
+    // Working
+    public static void testLengthOfLinkedListEvenOrOdd(){
+        LengthOfLinkedListEvenOrOdd isEvenOrOdd = new LengthOfLinkedListEvenOrOdd();
+        isEvenOrOdd.add(1);
+        isEvenOrOdd.add(2);
+        isEvenOrOdd.add(3);
+        isEvenOrOdd.add(4);
+
+        isEvenOrOdd.isLengthEvenOrOdd();
+    }
+
+    public static void testFindMiddleElementOfLinkedList(){
+        FindMiddleElementOfLinkedList fme = new FindMiddleElementOfLinkedList();
+        fme.add(1);
+        fme.add(2);
+        fme.add(3);
+        fme.add(4);
+        fme.add(5);
+        System.out.println(fme.middleElementOfLinkedList(fme.getHead()).value());
+    }
+
     public static void main(String args[]) {
 //        testLinkedListPrint();
 //        testDoublyLinkedListPrint();
@@ -140,8 +208,30 @@ public class Main {
 //        testStackUsingLinkedList();
 //        testStackUsingLinkedListMethod();
 //        testnthNodeFromEnd();
-testIsCyclePresent();
+//        testIsCyclePresent();
+//        testLengthOfLinkedListEvenOrOdd();
+//        testFindMiddleElementOfLinkedList();
+///        testDoub
+//            Not working function
+////            insertNodeInSortedLinkedList();
+//          testReverseLinkedList();
+////          reverseLinkedList funtion also not working
+//
 
+//      Reversed linked list using stack:
+        SinglyLinkedList sl = new SinglyLinkedList();
+        sl.add(1);
+        sl.add(2);
+        sl.add(3);
+        sl.add(4);
+        sl.add(5);
+        sl.add(6);
+        System.out.println("Reversed linked list using stack: " + ReverseLinkedList(sl.getHead()));
+        System.out.println(ReverseLinkedList(sl.getHead()).value());
+        System.out.println(ReverseLinkedList(sl.getHead()).next.value());
+        System.out.println(ReverseLinkedList(sl.getHead()).next.next.value());
+        System.out.println(ReverseLinkedList(sl.getHead()).next.next.next.value());
+        System.out.println(ReverseLinkedList(sl.getHead()).next.next.next.next.value());
     }
 }
 

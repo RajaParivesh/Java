@@ -65,6 +65,35 @@ public class SinglyLinkedList {
         }
     }
 
+// Not working yet // Some changes needed, Not tested
+//    public void addAtPosition(int n, int position) {
+//        Node newNode = new Node(n);
+//        int counter = 1;
+//        Node i = head;
+//
+//        if(position > size() && position < 0 ){
+//            System.out.println("Invaid Position");
+//            return;
+//        }
+//
+//        if (i == null) {
+//            head = newNode;
+//            length++;
+//        } else {
+//            while (i.next != null) {
+//                counter++;
+//                if(counter == position){
+//                    break;
+//                }
+//                i = i.next;
+//            }
+//            newNode.next = i.next.next;
+//            i.next = newNode;
+//            length++;
+//        }
+//    }
+
+
     public void deleteLast() {
         Node i = head;
         while (i.next != null) {
