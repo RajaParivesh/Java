@@ -207,6 +207,12 @@ public class SinglyLinkedList {
             return temp;
         }
     }
+
+
+    public boolean isEmpty(){
+        return  length == 0;
+    }
+
 }
 
 

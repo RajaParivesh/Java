@@ -9,7 +9,7 @@ import collections.linkedList.singlyLinkedList.SinglyLinkedList;
 
 import java.util.LinkedList;
 
-public class Main {
+public class LinkedListRun {
 
     private static void testLinkedListPrint() {
         SinglyLinkedList ll = new SinglyLinkedList();
@@ -77,9 +77,9 @@ public class Main {
 
         System.out.println("Peek node is : " + sll.peek());
         if (sll.isEmpty() == false) {
-            System.out.println("Stack is empty");
+            System.out.println("StackUsingLinkedList is empty");
         } else {
-            System.out.println("Stack contain some elemnents");
+            System.out.println("StackUsingLinkedList contain some elemnents");
         }
 
 //        sll.nthFromLastMethod1(2);
@@ -163,7 +163,7 @@ public class Main {
 //    }
 
     public static Node ReverseLinkedList(Node head){
-        LinkedList<Node> stack = new LinkedList<>();
+        java.util.LinkedList<Node> stack = new java.util.LinkedList<>();
 
         while(head.next != null) {
             stack.push(head);
@@ -211,14 +211,11 @@ public class Main {
 //        testIsCyclePresent();
 //        testLengthOfLinkedListEvenOrOdd();
 //        testFindMiddleElementOfLinkedList();
-///        testDoub
-//            Not working function
-////            insertNodeInSortedLinkedList();
-//          testReverseLinkedList();
-////          reverseLinkedList funtion also not working
-//
 
-//      Reversed linked list using stack:
+
+        /** working
+         * Reversed linked list using stack
+         */
         SinglyLinkedList sl = new SinglyLinkedList();
         sl.add(1);
         sl.add(2);
@@ -232,6 +229,12 @@ public class Main {
         System.out.println(ReverseLinkedList(sl.getHead()).next.next.value());
         System.out.println(ReverseLinkedList(sl.getHead()).next.next.next.value());
         System.out.println(ReverseLinkedList(sl.getHead()).next.next.next.next.value());
+
+
+        //            Not working function
+////            insertNodeInSortedLinkedList();
+
+
     }
 }
 

@@ -4,7 +4,7 @@ public class Node {
     private int data;
     public Node next;
 
-    Node(int n) {
+    public Node(int n) {
         data = n;
         next=null;
     }
