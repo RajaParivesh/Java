@@ -1,24 +1,36 @@
 package collections.stack;
 
-public class StackUsingArray implements StackInterface {
+import java.util.ArrayList;
+import java.util.EmptyStackException;
 
-    @Override
-    public void push(int n) {
+public class StackUsingArray<E> implements StackInterface {
 
+    ArrayList<Integer> al;
+
+    public StackUsingArray(){
+        al = new ArrayList<>();
     }
 
     @Override
+    public void push(int n) {
+    al.add(0,n);
+    }
+
+
+    @Override
     public int peek() {
-        return 0;
+        return al.get(0);
     }
 
     @Override
     public int size() {
-        return 0;
+        return al.size();
     }
 
     @Override
     public Integer pop() {
-        return -1;
+        if (al.isEmpty())  throw new EmptyStackException();
+
+        return al.remove(0);
     }
 }
