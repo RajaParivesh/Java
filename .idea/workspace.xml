@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="176d5409-e301-47cc-ab31-f15207b03385" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collections/StackRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/StackRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collections/stack/prefixInfixAndPostfixProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/stack/prefixInfixAndPostfixProblems.java" afterDir="false" />
     </list>
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/collections/StackRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="104" column="116" lean-forward="true" selection-start-line="104" selection-start-column="116" selection-end-line="104" selection-end-column="116" />
+            <state relative-caret-position="165">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,24 +34,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collections/stack/prefixInfixAndPostfixProblems.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/collections/stack/GetMinimum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
-                <element signature="n#!!doc;n#Prec#0;n#prefixInfixAndPostfixProblems#0" />
-                <element signature="method#Prec#0;class#prefixInfixAndPostfixProblems#0" />
-                <element signature="e#288#489#0" />
-                <element signature="docComment;method#infixToPostfix#0;class#prefixInfixAndPostfixProblems#0" />
-                <element signature="method#infixToPostfix#0;class#prefixInfixAndPostfixProblems#0" />
-                <element signature="e#908#2125#1" />
-                <element signature="e#1305#1374#0" />
-                <element signature="e#1466#1775#1" />
-                <element signature="e#1835#2114#1" />
-                <element signature="e#1910#2069#1" />
-                <element signature="e#2207#2334#1" />
-                <element signature="docComment;method#evaluatePostfixUsingStack#0;class#prefixInfixAndPostfixProblems#0" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,6 +66,7 @@
       <find>5</find>
       <find>prin</find>
       <find>4</find>
+      <find>pee</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/collections/stack/CheckSymbolsBalancing.java" />
         <option value="$PROJECT_DIR$/src/collections/stack/prefixInfixAndPostfixProblems.java" />
         <option value="$PROJECT_DIR$/src/collections/StackRun.java" />
+        <option value="$PROJECT_DIR$/src/collections/stack/GetMinimum.java" />
       </list>
     </option>
   </component>
@@ -248,12 +241,12 @@
       <workItem from="1562083100591" duration="15998000" />
       <workItem from="1562130278020" duration="20663000" />
       <workItem from="1562318345753" duration="4924000" />
-      <workItem from="1562326916274" duration="2133000" />
+      <workItem from="1562326916274" duration="11084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234281000" />
+    <option name="totallyTimeSpent" value="243232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -268,7 +261,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30456027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30456027" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4254317" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -606,31 +599,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/stack/prefixInfixAndPostfixProblems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="95" column="27" lean-forward="true" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc;n#Prec#0;n#prefixInfixAndPostfixProblems#0" />
             <element signature="method#Prec#0;class#prefixInfixAndPostfixProblems#0" />
-            <element signature="e#288#489#0" />
             <element signature="docComment;method#infixToPostfix#0;class#prefixInfixAndPostfixProblems#0" />
-            <element signature="method#infixToPostfix#0;class#prefixInfixAndPostfixProblems#0" />
-            <element signature="e#908#2125#1" />
-            <element signature="e#1305#1374#0" />
-            <element signature="e#1466#1775#1" />
-            <element signature="e#1835#2114#1" />
-            <element signature="e#1910#2069#1" />
-            <element signature="e#2207#2334#1" />
-            <element signature="docComment;method#evaluatePostfixUsingStack#0;class#prefixInfixAndPostfixProblems#0" />
+            <element signature="e#2631#2687#0" />
+            <element signature="e#3599#3652#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/StackRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="104" column="116" lean-forward="true" selection-start-line="104" selection-start-column="116" selection-end-line="104" selection-end-column="116" />
+        <state relative-caret-position="165">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/stack/GetMinimum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,5 +1,6 @@
 package collections;
 
+import collections.stack.GetMinimumElementInStack;
 import collections.stack.StackUsingArray;
 import collections.stack.StackUsingSinglyLinkedList;
 import collections.stack.prefixInfixAndPostfixProblems;
@@ -97,13 +98,24 @@ public class StackRun {
         System.out.println("Postfix evaluation of "+ postfixExp + " is : "+ fix.evaluatePostfixUsingStack(postfixExp));
     }
 
+    public static void testGetMinimum(){
+        GetMinimumElementInStack m = new GetMinimumElementInStack();
+        m.push(2);
+        m.push(1);
+        m.push(9);
+        m.push(7);
+        m.push(8);
+        System.out.println(m.getMinimum());
+    }
 
     public static void main(String args[]){
 //        testStackUsingArray();
 //        testStackUsingSinglyLinkedList();
 //        testStackUsingArray();
 //        System.out.println("Are Bracket balanced in the expression : "+ isBalanceSymbolInExpression("askdfjlkajsia}{()"));
-        testPrefixInfixAndPostfixProblems();
+//        testPrefixInfixAndPostfixProblems();
+        testGetMinimum();
+
     }
 }
 
