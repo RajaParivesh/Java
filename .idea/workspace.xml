@@ -8,11 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="176d5409-e301-47cc-ab31-f15207b03385" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/StackRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/StackRun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/stack/StackUsingArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/stack/StackUsingArray.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collections/StackRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/StackRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/stack/StackInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/stack/StackInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/stack/StackUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/stack/StackUsingArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +25,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/collections/StackRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="86" column="65" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="65" />
+            <state relative-caret-position="337">
+              <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collections/stack/prefixInfixAndPostfixProblems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -98,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/collections/stack/StackInterface.java" />
         <option value="$PROJECT_DIR$/src/collections/stack/StackUsingArray.java" />
         <option value="$PROJECT_DIR$/src/collections/stack/CheckSymbolsBalancing.java" />
+        <option value="$PROJECT_DIR$/src/collections/stack/prefixInfixAndPostfixProblems.java" />
         <option value="$PROJECT_DIR$/src/collections/StackRun.java" />
       </list>
     </option>
@@ -122,7 +131,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,18 +231,19 @@
       <workItem from="1561872466542" duration="346000" />
       <workItem from="1562015757874" duration="7343000" />
       <workItem from="1562083100591" duration="15998000" />
-      <workItem from="1562130278020" duration="15017000" />
+      <workItem from="1562130278020" duration="20663000" />
+      <workItem from="1562318345753" duration="3803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221578000" />
+    <option name="totallyTimeSpent" value="231027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30454546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -250,7 +260,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.757329" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.757329" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3257329" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32900432" />
@@ -563,17 +573,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/stack/CheckSymbolsBalancing.java">
+    <entry file="file://$PROJECT_DIR$/src/collections/stack/CheckSymbolsBalancing.java" />
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Character.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="456" column="26" selection-start-line="456" selection-start-column="26" selection-end-line="456" selection-end-column="26" />
+          <folding>
+            <element signature="e#15332#15333#0" expanded="true" />
+            <element signature="e#15379#15380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/stack/prefixInfixAndPostfixProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/StackRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="86" column="65" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="65" />
+        <state relative-caret-position="337">
+          <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

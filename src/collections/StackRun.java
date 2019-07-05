@@ -2,8 +2,10 @@ package collections;
 
 import collections.stack.StackUsingArray;
 import collections.stack.StackUsingSinglyLinkedList;
+import collections.stack.prefixInfixAndPostfixProblems;
 
 import java.util.Stack;
+
 
 public class StackRun {
 
@@ -85,12 +87,21 @@ public class StackRun {
         }
     }
 
+
+    public static void testPrefixInfixAndPostfixProblems(){
+        prefixInfixAndPostfixProblems fix = new prefixInfixAndPostfixProblems();
+//        String exp = "a+b*(c^d-e)^(f+g*h)-i";
+        String exp = "((a*b)/d)-E";
+        System.out.println(fix.infixToPostfix(exp));
+    }
+
+
     public static void main(String args[]){
 //        testStackUsingArray();
 //        testStackUsingSinglyLinkedList();
 //        testStackUsingArray();
-        System.out.println("Are Bracket balanced in the expression : "+ isBalanceSymbolInExpression("askdfjlkajsia}{()"));
-
+//        System.out.println("Are Bracket balanced in the expression : "+ isBalanceSymbolInExpression("askdfjlkajsia}{()"));
+        testPrefixInfixAndPostfixProblems();
     }
 }
 
