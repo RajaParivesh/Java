@@ -6,6 +6,7 @@ public class Palindrome {
     Stack s;
 
     public Palindrome() {
+
         s = new Stack();
     }
 
@@ -28,4 +29,5 @@ public class Palindrome {
             else return false;
         }
     }
+
 }
