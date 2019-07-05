@@ -90,9 +90,11 @@ public class StackRun {
 
     public static void testPrefixInfixAndPostfixProblems(){
         prefixInfixAndPostfixProblems fix = new prefixInfixAndPostfixProblems();
-//        String exp = "a+b*(c^d-e)^(f+g*h)-i";
-        String exp = "((a*b)/d)-E";
-        System.out.println(fix.infixToPostfix(exp));
+//      String infixExp = "a+b*(c^d-e)^(f+g*h)-i";
+        String infixExp = "((a*b)/d)-E";
+        System.out.println(fix.infixToPostfix(infixExp));
+        String postfixExp = "231*+9-";
+        System.out.println("Postfix evaluation of "+ postfixExp + " is : "+ fix.evaluatePostfixUsingStack(postfixExp));
     }
 
 
