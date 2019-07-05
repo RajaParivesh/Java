@@ -1,9 +1,6 @@
 package collections;
 
-import collections.stack.GetMinimumElementInStack;
-import collections.stack.StackUsingArray;
-import collections.stack.StackUsingSinglyLinkedList;
-import collections.stack.prefixInfixAndPostfixProblems;
+import collections.stack.*;
 
 import java.util.Stack;
 
@@ -90,7 +87,7 @@ public class StackRun {
 
 
     public static void testPrefixInfixAndPostfixProblems(){
-        prefixInfixAndPostfixProblems fix = new prefixInfixAndPostfixProblems();
+        PrefixInfixAndPostfixProblems fix = new PrefixInfixAndPostfixProblems();
 //      String infixExp = "a+b*(c^d-e)^(f+g*h)-i";
         String infixExp = "((a*b)/d)-E";
         System.out.println(fix.infixToPostfix(infixExp));
@@ -108,14 +105,21 @@ public class StackRun {
         System.out.println(m.getMinimum());
     }
 
+    public static void testPalindrome(){
+        Palindrome p = new Palindrome();
+        String str = "abcdcba";
+//        String str = "abccba";
+//        String str = "bcba";
+        System.out.println("Is "+str+ " palindrome: " + p.checkPalindromeUsingStack(str));
+    }
     public static void main(String args[]){
 //        testStackUsingArray();
 //        testStackUsingSinglyLinkedList();
 //        testStackUsingArray();
 //        System.out.println("Are Bracket balanced in the expression : "+ isBalanceSymbolInExpression("askdfjlkajsia}{()"));
 //        testPrefixInfixAndPostfixProblems();
-        testGetMinimum();
-
+//        testGetMinimum();
+        testPalindrome();
     }
 }
 

@@ -2,7 +2,7 @@ package collections.stack;
 
 import java.util.Stack;
 
-public class prefixInfixAndPostfixProblems {
+public class PrefixInfixAndPostfixProblems {
     // A utility function to return precedence of a given operator
     // Higher returned value means higher precedence
     public static int Prec(char ch) {
