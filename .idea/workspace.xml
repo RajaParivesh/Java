@@ -10,7 +10,6 @@
     <list default="true" id="176d5409-e301-47cc-ab31-f15207b03385" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/stack/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/stack/Palindrome.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,36 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collections/StackRun.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/collections/queue/QueueUsingArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
-              <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collections/stack/ReverseStackContent.java">
+        <entry file="file://$PROJECT_DIR$/src/collections/QueueRun.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collections/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-              <folding>
-                <element signature="docComment;method#fib#0;class#Main#0" />
-                <element signature="method#factorial#0;class#Main#0" />
-              </folding>
+              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -78,6 +61,12 @@
       <find>4</find>
       <find>pee</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/collections</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,6 +118,8 @@
         <option value="$PROJECT_DIR$/src/collections/stack/ReverseStackContent.java" />
         <option value="$PROJECT_DIR$/src/collections/stack/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/collections/Main.java" />
+        <option value="$PROJECT_DIR$/src/collections/QueueRun.java" />
+        <option value="$PROJECT_DIR$/src/collections/queue/QueueUsingArray.java" />
       </list>
     </option>
   </component>
@@ -151,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,12 +165,13 @@
               <item name="JavaPracticeCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -201,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.QueueRun">
     <configuration name="LinkedList" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="collections.LinkedListRun" />
       <module name="JavaPracticeCode" />
@@ -218,6 +209,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueRun" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="collections.QueueRun" />
+      <module name="JavaPracticeCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Stack" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="collections.StackRun" />
       <module name="JavaPracticeCode" />
@@ -229,6 +227,7 @@
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.Stack" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.QueueRun" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -267,18 +266,20 @@
       <workItem from="1562398902771" duration="4122000" />
       <workItem from="1562469004024" duration="156000" />
       <workItem from="1562469411215" duration="2358000" />
-      <workItem from="1562515287974" duration="2740000" />
+      <workItem from="1562515287974" duration="4950000" />
+      <workItem from="1562595824209" duration="6073000" />
+      <workItem from="1562672366462" duration="5139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265274000" />
+    <option name="totallyTimeSpent" value="278696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33636364" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3469697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,7 +288,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30456027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30456027" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42508143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,6 +311,39 @@
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3469697" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30456027" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42508143" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.81433225" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3257329" />
+      <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32900432" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32954547" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24924242" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32954547" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout-to-restore>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaPracticeCode$Main.ic" NAME="Main Coverage Results" MODIFIED="1561192198480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -679,23 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/StackRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/stack/ReverseStackContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Scanner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -707,14 +724,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/stack/ReverseStackContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="345">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
           <folding>
             <element signature="docComment;method#fib#0;class#Main#0" />
             <element signature="method#factorial#0;class#Main#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/StackRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/QueueRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/queue/QueueUsingArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -60,8 +60,8 @@ public class Main {
         Main obj = new Main();
         //fib not working
 //        System.out.println(obj.fib(4));
+
 //        System.out.println(obj.factorial(5));
-//        obj.reverse(124);
 
         // For Reverse integer function
         int num=0;
