@@ -9,8 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="176d5409-e301-47cc-ab31-f15207b03385" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/QueueRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/QueueRun.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,20 +23,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collections/queue/QueueUsingArray.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collections/queue/QueueUsingLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="375">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/collections/QueueRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="196">
+              <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testQueueUsingArray#0;class#QueueRun#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +130,11 @@
         <option value="$PROJECT_DIR$/src/collections/stack/ReverseStackContent.java" />
         <option value="$PROJECT_DIR$/src/collections/stack/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/collections/Main.java" />
-        <option value="$PROJECT_DIR$/src/collections/QueueRun.java" />
         <option value="$PROJECT_DIR$/src/collections/queue/QueueUsingArray.java" />
+        <option value="$PROJECT_DIR$/src/collections/queue/QueueUsing.java" />
+        <option value="$PROJECT_DIR$/src/collections/queue/QueueUsingStack.java" />
+        <option value="$PROJECT_DIR$/src/collections/queue/QueueUsingLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/collections/QueueRun.java" />
       </list>
     </option>
   </component>
@@ -268,18 +283,18 @@
       <workItem from="1562469411215" duration="2358000" />
       <workItem from="1562515287974" duration="4950000" />
       <workItem from="1562595824209" duration="6073000" />
-      <workItem from="1562672366462" duration="5139000" />
+      <workItem from="1562672366462" duration="9796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278696000" />
+    <option name="totallyTimeSpent" value="283353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3469697" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3469697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -288,7 +303,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30456027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42508143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42508143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -752,17 +767,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/QueueRun.java">
+    <entry file="file://$PROJECT_DIR$/src/collections/queue/QueueUsingStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#234#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/queue/QueueUsingArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="135">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/queue/QueueUsingLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/QueueRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testQueueUsingArray#0;class#QueueRun#0" />
+          </folding>
         </state>
       </provider>
     </entry>
