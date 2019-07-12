@@ -68,7 +68,15 @@ public class Node {
         }
     }
 
-
+    public void printPostOrder(){
+        if(left != null){
+            left.printPostOrder();
+        }
+        if(right != null){
+            right.printPostOrder();
+        }
+        System.out.println(data);
+    }
 
 }
 

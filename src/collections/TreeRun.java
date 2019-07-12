@@ -13,7 +13,8 @@ public class TreeRun {
         n.insert(7);
         n.insert(0);
 //        n.printInOrder();
-        n.printPreOrder();
+//        n.printPreOrder();
+        n.printPostOrder();
     }
     public static void main(String[] args) {
         testTree();
