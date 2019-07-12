@@ -5,10 +5,15 @@
     <bookmark url="file://$PROJECT_DIR$/src/collections/LinkedListRun.java" line="20" />
     <bookmark url="file://$PROJECT_DIR$/src/collections/stack/StackUsingArray.java" line="31" />
     <bookmark url="file://$PROJECT_DIR$/src/collections/Main.java" line="22" />
+    <bookmark url="file://$PROJECT_DIR$/src/collections/tree/Node.java" line="25" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="176d5409-e301-47cc-ab31-f15207b03385" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/LinkedListRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/LinkedListRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPracticeCode/collections/linkedList/circularLinkedList/CircularLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/LinkedListRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/LinkedListRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/linkedList/circularLinkedList/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/linkedList/circularLinkedList/CircularLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,55 +28,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collections/queue/QueueUsingLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/collections/LinkedListRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collections/QueueRun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#testQueueUsingArray#0;class#QueueRun#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collections/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding>
-                <element signature="docComment;method#fib#0;class#Main#0" />
-                <element signature="method#factorial#0;class#Main#0" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/SinglyLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/collections/tree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-              <folding>
-                <element signature="e#4861#4862#0" expanded="true" />
-                <element signature="e#4896#4897#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="118">
+              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collections/TreeRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -113,7 +91,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/collections/linkedList/doublyLinkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/circularLinkedList/Node.java" />
-        <option value="$PROJECT_DIR$/src/collections/linkedList/circularLinkedList/CircularLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/doublyLinkedList/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedListPracticeQuestions/ImplementStackUsingLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedListPracticeQuestions/Node.java" />
@@ -136,9 +113,7 @@
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/collections/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/stack/StackUsingLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/collections/LinkedListRun.java" />
         <option value="$PROJECT_DIR$/src/collections/linkedList/linkedListPracticeQuestions/StackUsingLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/stack/Stack.java" />
         <option value="$PROJECT_DIR$/src/collections/stack/StackUsingSinglyLinkedList.java" />
@@ -157,6 +132,13 @@
         <option value="$PROJECT_DIR$/src/collections/queue/QueueUsingStack.java" />
         <option value="$PROJECT_DIR$/src/collections/queue/QueueUsingLinkedList.java" />
         <option value="$PROJECT_DIR$/src/collections/QueueRun.java" />
+        <option value="$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/SinglyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/collections/linkedList/circularLinkedList/CircularLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/collections/tree/binaryTree.java" />
+        <option value="$PROJECT_DIR$/src/collections/tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/collections/TreeRun.java" />
+        <option value="$PROJECT_DIR$/src/collections/LinkedListRun.java" />
+        <option value="$PROJECT_DIR$/src/collections/tree/Node.java" />
       </list>
     </option>
   </component>
@@ -180,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,27 +185,13 @@
               <item name="JavaPracticeCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPracticeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPracticeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="singlyLinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPracticeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPracticeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -249,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Tree">
     <configuration name="LinkedList" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="collections.LinkedListRun" />
       <module name="JavaPracticeCode" />
@@ -280,11 +247,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tree" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="collections.TreeRun" />
+      <module name="JavaPracticeCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.Stack" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.QueueRun" />
+      <item itemvalue="Application.Tree" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -333,9 +308,10 @@
     <option name="totallyTimeSpent" value="283353000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="27" width="1296" height="741" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3528" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.35833332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,7 +320,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42508143" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4247934" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42508143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,9 +328,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.81433225" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.8132231" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3257329" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32561985" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32900432" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -368,7 +344,7 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3469697" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35833332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -377,7 +353,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30456027" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4247934" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42508143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,9 +361,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.81433225" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.8132231" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3257329" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32561985" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32900432" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -456,13 +432,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/DoublyLinkedList/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/DoublyLinkedList/DoublyLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/collections/linkedList/circularLinkedList/CircularLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/linkedListPracticeQuestions/ImplementStackUsingLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/collections/linkedList/circularLinkedList/Node.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -638,16 +607,6 @@
       </provider>
     </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/ArrayList.class" />
-    <entry file="file://$PROJECT_DIR$/src/collections/LinkedListRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/stack/StackUsingArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -748,26 +707,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/queue/QueueUsingLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="1845">
+          <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/QueueRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testQueueUsingArray#0;class#QueueRun#0" />
+            <element signature="e#4861#4862#0" expanded="true" />
+            <element signature="e#4896#4897#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -783,14 +729,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/linkedList/singlyLinkedList/SinglyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/collections/QueueRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding>
-            <element signature="e#4861#4862#0" expanded="true" />
-            <element signature="e#4896#4897#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#testQueueUsingArray#0;class#QueueRun#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/queue/QueueUsingLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/linkedList/circularLinkedList/CircularLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/tree/BinaryTree.java" />
+    <entry file="file://$PROJECT_DIR$/src/collections/LinkedListRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/TreeRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>

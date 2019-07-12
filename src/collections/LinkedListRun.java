@@ -1,6 +1,6 @@
 package collections;
 
-import collections.linkedList.circularLinkedList.CircularLinkedList;
+//import collections.linkedList.circularLinkedList.CircularLinkedList;
 import collections.linkedList.doublyLinkedList.DoublyLinkedList;
 //import collections.linkedList.linkedListPracticeQuestions.detectLoopInLinkedList.DetectLoopInLinkedList;
 import collections.linkedList.linkedListPracticeQuestions.*;
@@ -63,10 +63,22 @@ public class LinkedListRun {
         dl.print();
                                                                                                                                                                                                                                                               }
 
-    private static void testCircularLinkedListPrint() {
-        CircularLinkedList cl = new CircularLinkedList(0);
-        cl.print();
-    }
+//    private static void testCircularLinkedListPrint() {
+//        CircularLinkedList cl = new CircularLinkedList( );
+//        /* Initialize lists as empty */
+//        CircularLinkedList.Node head = null;
+//        cl.push(head,12);
+//        cl.push(head,56);
+//        cl.push(head,2);
+//        cl.push(head,11);
+//        /* Created linked list will
+//	be 11.2.56.12 */
+//
+//        System.out.println("Contents of Circular " +
+//                "Linked List:");
+//        cl.printList(head);
+//    }
+//
 
     private static void testStackUsingLinkedList() {
         StackUsingLinkedList sll = new StackUsingLinkedList();
@@ -216,19 +228,19 @@ public class LinkedListRun {
         /** working
          * Reversed linked list using stack
          */
-        SinglyLinkedList sl = new SinglyLinkedList();
-        sl.add(1);
-        sl.add(2);
-        sl.add(3);
-        sl.add(4);
-        sl.add(5);
-        sl.add(6);
-        System.out.println("Reversed linked list using stack: " + ReverseLinkedList(sl.getHead()));
-        System.out.println(ReverseLinkedList(sl.getHead()).value());
-        System.out.println(ReverseLinkedList(sl.getHead()).next.value());
-        System.out.println(ReverseLinkedList(sl.getHead()).next.next.value());
-        System.out.println(ReverseLinkedList(sl.getHead()).next.next.next.value());
-        System.out.println(ReverseLinkedList(sl.getHead()).next.next.next.next.value());
+//        SinglyLinkedList sl = new SinglyLinkedList();
+//        sl.add(1);
+//        sl.add(2);
+//        sl.add(3);
+//        sl.add(4);
+//        sl.add(5);
+//        sl.add(6);
+//        System.out.println("Reversed linked list using stack: " + ReverseLinkedList(sl.getHead()));
+//        System.out.println(ReverseLinkedList(sl.getHead()).value());
+//        System.out.println(ReverseLinkedList(sl.getHead()).next.value());
+//        System.out.println(ReverseLinkedList(sl.getHead()).next.next.value());
+//        System.out.println(ReverseLinkedList(sl.getHead()).next.next.next.value());
+//        System.out.println(ReverseLinkedList(sl.getHead()).next.next.next.next.value());
 
 
         //            Not working function
