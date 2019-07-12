@@ -58,6 +58,16 @@ public class Node {
         }
     }
 
+    public void printPreOrder(){
+        System.out.println(data);
+        if(left != null){
+            left.printPreOrder();
+        }
+        if(right != null){
+            right.printPreOrder();
+        }
+    }
+
 
 
 }
