@@ -8,6 +8,8 @@
  */
 
 public class Solution extends GuessGame {
+    
+    // Binary search is used
     public int guessNumber(int n) {
         int left = 1, right = n, mid ;
         while(left <= right){
