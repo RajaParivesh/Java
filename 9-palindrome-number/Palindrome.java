@@ -1,5 +1,10 @@
-class Solution {
-    public boolean isPalindrome(int num) {
+class Palindrome {
+    public static void main(String[] args){
+        int input =  121;
+        System.out.println(isPalindrome(input));
+    }
+
+    public static boolean isPalindrome(int num) {
         int r = 0;
         int rev = 0;
         int x = num;
